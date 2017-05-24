@@ -38,6 +38,21 @@
 	padding: 10px;
 	float:right;
 }
+.blogdiv {
+    margin: auto;
+    width:90%;
+    padding:10px;
+    border:solid 2px black;
+    overflow:auto;
+}
+.blogdiv h2, .blogdiv h3 {
+    display: inline;
+}
+.img-small-left {
+    width:35%;
+    padding:5px;
+    float:left;
+}
 ul {
     list-style-type: none;
     margin: 0;
