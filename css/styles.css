@@ -48,11 +48,28 @@
 .blogdiv h2, .blogdiv h3 {
     display: inline;
 }
+
 .img-small-left {
     width:35%;
     padding:5px;
     float:left;
+    text-align: right;
 }
+.blog-detail {
+    width:98%;
+    padding:10px;
+    text-align: left;
+    border:solid 2px black;
+    overflow:auto;
+    position: relative;
+  }
+.blog-img-bottom-left {
+    float:left;
+    width:200px;
+    padding: 5px;
+
+ }
+
 ul {
     list-style-type: none;
     margin: 0;
