@@ -70,35 +70,16 @@
 
  }
 
- .shop-container {
-    overflow: auto;
-    position: relative;
- }
- .shop-left {
+  .shop-img {
+    height:90%;
     float:left;
-    width:25%;
-    border:solid 2px black;
-    padding: 10px;
-    display: block;
  }
- .shop-center {
-    margin: auto;
-    width: 25%;
-    border: 2px solid black;
-    padding: 10px;
-    display: block;
-}
- .shop-right {
-    float:right;
-    width:25%;
-    border:solid 2px black;
-    padding: 10px;
-    display: block;
- }
- .shop-img-cont {
-    width:33%;
-    border:solid 2px black;
- }
+  .buy {
+    width:90px;
+  }
+  .font-white {
+    color: white;
+  }
 
 ul {
     list-style-type: none;
@@ -149,4 +130,21 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+#gameContainer
+{
+    width:95%;
+    background-color:#545045;
+    height:725px;
+}
+ 
+#gameBox
+{
+    width:28%; height:28%;
+    background-color:gray;
+    float:left;
+    margin:20px;
+    text-align:center;
+    overflow: auto
 }
