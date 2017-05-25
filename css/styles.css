@@ -132,14 +132,14 @@ li.dropdown {
     display: block;
 }
 
-#gameContainer
+#shopContainer
 {
     width:95%;
     background-color:#545045;
     height:725px;
 }
  
-#gameBox
+#shopBox
 {
     width:28%; height:28%;
     background-color:gray;
@@ -147,4 +147,33 @@ li.dropdown {
     margin:20px;
     text-align:center;
     overflow: auto
+}
+
+#shopDetailRight {
+    float:right;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    margin:20px;
+    position: relative;
+
+}
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    height:120px;
+}
+
+div.scrollmenu img {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    height:120px;
+}
+
+div.scrollmenu img:hover {
+    background-color: #777;
 }
