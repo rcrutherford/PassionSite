@@ -70,6 +70,36 @@
 
  }
 
+ .shop-container {
+    overflow: auto;
+    position: relative;
+ }
+ .shop-left {
+    float:left;
+    width:25%;
+    border:solid 2px black;
+    padding: 10px;
+    display: block;
+ }
+ .shop-center {
+    margin: auto;
+    width: 25%;
+    border: 2px solid black;
+    padding: 10px;
+    display: block;
+}
+ .shop-right {
+    float:right;
+    width:25%;
+    border:solid 2px black;
+    padding: 10px;
+    display: block;
+ }
+ .shop-img-cont {
+    width:33%;
+    border:solid 2px black;
+ }
+
 ul {
     list-style-type: none;
     margin: 0;
